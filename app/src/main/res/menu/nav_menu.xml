@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/dash_board"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="DashBoard" />
+<!--    <item-->
+<!--        android:id="@+id/nav_hr"-->
+<!--        android:icon="@drawable/ic_baseline_person_24"-->
+<!--        android:title="HR" />-->
+    <item
+        android:id="@+id/nav_employee"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Employee" />
+    <item
+        android:id="@+id/nav_onBoarding_emp"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="OnBoarding Employee" />
+    <item
+        android:id="@+id/nav_client"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Client" />
+    <item
+        android:id="@+id/nav_project"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Project" />
+    <item
+        android:id="@+id/nav_timesheet"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Timesheet" />
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/nav_events"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Events" />
+    <item
+        android:id="@+id/nav_holidays"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Holidays" />
+
+    <item
+        android:id="@+id/nav_leave"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Leave Management" />
+    <item
+        android:id="@+id/nav_pay_roll"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Pay Roll" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Logout" />
+</menu>

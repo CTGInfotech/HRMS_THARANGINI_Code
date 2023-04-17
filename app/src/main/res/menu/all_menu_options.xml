@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        android:title="Edit"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/cancel"
+        android:title="Cancel"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/status"
+        android:title="Active"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/view"
+        android:title="View"
+        app:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/approve"
+        android:title="Approve"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/reject"
+        android:title="Reject"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+</menu>

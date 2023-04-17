@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/timesheet_date"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Date"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timesheet_day"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Day"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/timesheet_work_hrs"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Work Hrs"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/timesheet_away_hrs"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="Away Hrs"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/timesheet_description"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+     android:layout_gravity="top"
+
+        android:background="@drawable/table_content_cell_bg"
+        android:textSize="18sp"
+        android:text="Description"
+        android:textAlignment="center"
+         />
+
+</LinearLayout>
